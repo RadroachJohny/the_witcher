@@ -282,6 +282,7 @@ body {
 
 .footer-copyright {
     color: #3a383d;
+    user-select: none;
 }
 
 .menu-button {
