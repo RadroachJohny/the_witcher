@@ -58,6 +58,10 @@ body {
     text-decoration: none;
 }
 
+.social-link .fab {
+    color: #fff;
+}
+
 
 /* MAIN */
 
@@ -360,10 +364,10 @@ body {
         top: 0;
         transition: transform 0.2s;;
     }
-        .menu-button-active::after {
-            transform: rotate(-45deg);
-            top: 0;
-            transition: transform 0.2s;
+    .menu-button-active::after {
+        transform: rotate(-45deg);
+        top: 0;
+        transition: transform 0.2s;
     }
     
     .logo {
@@ -399,7 +403,6 @@ body {
     .main-titel {
         font-size: 56px;
     }
-    
     .series {
         width: 65%;
     }
