@@ -412,4 +412,14 @@ body {
 
 }
 
+@media (max-width: 456px) {
+    .header,
+    .header-active {
+        z-index: 100 ;
+    }
+    .menu-button {
+        z-index: 101;
+    }
+}
+
 
